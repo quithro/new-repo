@@ -18,15 +18,89 @@
   </head>
   <body>
     <div class="page">
-      Testing...
-      <header></header>
-      <main>
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
-      </main>
-      <footer></footer>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Espresso Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link">Book a table</a>
+            </li>
+            <li>
+              <a class="nav__link">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title header__title_blue">Specialty</h1>
+        <h1 class="header__title">in the Triple Peaks Library</h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="coffee shop scene"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <a class="header__footer_text">Hours:</a>
+          <a class="header__footer_text">Monday-Friday (10:00-19:00)</a>
+          <div class="header__footer_text-block">
+            <a class="header__footer_text">Saturday-Sunday (11:00-18:00)</a>
+            <a class="header__footer_text header__footer_address"
+              >200 Success Avenue, The Town of Triple Peaks</a
+            >
+          </div>
+        </div>
+      </header>
+      <section class="recipes">
+        <h1 class="recipes__title">Recipes</h1>
+        <p class="recipes__subtitle">
+          Check out some recipes we've collected for your home-brewing
+          convenience.
+        </p>
+        <div class="recipes__videos">
+          <iframe
+            class="recipes__videos_iframe"
+            width="480"
+            height="273"
+            src="https://www.youtube.com/embed/j6VlT_jUVPc?si=D53PhOeT_zujYer0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="recipes__videos_iframe"
+            width="480"
+            height="273"
+            src="https://www.youtube.com/embed/st571DYYTR8?si=1rJMfUur9nGNJLRs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="recipes__iframe_descriptions">
+          <div class="recipes__iframe_descriptions-block">
+            <p class="recipes__iframe_description">Aeropress recipe</p>
+            <p class="recipes__iframe_description">~5 min</p>
+          </div>
+          <div class="recipes__iframe_descriptions-block">
+            <p class="recipes__iframe_description">French press recipe</p>
+            <p class="recipes__iframe_description">~15 min</p>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
